@@ -29,6 +29,16 @@
                     </div>
                 </div>
             </div>
+            @*TODO: Add a foreach loop to display all the pizzas in the database*@
+            <div class="col-4 mb-5">
+                @foreach (var pizza in Model.fakePizzaDb)
+                {
+                    
+                }
+                <img src="" class="w-100" asp-append-version="true"/>
+                <a class="btn btn-primary mt-1" asp-area="" asp-page="Checkout/Checkout">Get this Pizza</a>
+                <br />
+            </div>
         </div>
     </div>
 

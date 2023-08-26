@@ -47,3 +47,18 @@ body {
     margin: 100px 0 20px 0;
     color: white;
 }
+
+.formBackground{
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.buttonSpecial{
+    font-weight: bold;
+    border-radius: 20px;
+    border-color: darksalmon;
+    border-width: 3px;
+    
+}
